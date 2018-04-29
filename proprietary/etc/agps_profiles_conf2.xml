@@ -261,8 +261,8 @@
 
   <!-- CDMA profile template -->
   <cdma_profile name="CDMA1"
-  	mcp_enable="false"
-  	mcp_addr="10.199.2.165"
+  	mcp_enable="true"
+  	mcp_addr="10.199.22.165"
   	mcp_port="6066"
   	pde_addr_valid="false"
   	pde_ip_type="0"

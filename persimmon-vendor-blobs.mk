@@ -80,6 +80,12 @@ PRODUCT_COPY_FILES += \
     vendor/archos/persimmon/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/archos/persimmon/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/archos/persimmon/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
+    vendor/archos/persimmon/proprietary/etc/agps_conf.xml:system/etc/agps_conf.xml \
+    vendor/archos/persimmon/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/archos/persimmon/proprietary/etc/spn_conf.xml:system/etc/spn_conf.xml \
+    vendor/archos/persimmon/proprietary/etc/agps_conf.xml:system/etc/agps_conf.xml \
+    vendor/archos/persimmon/proprietary/etc/permissions/android.hardware.location.gps.xml:system/etc/android.hardware.location.gps.xml \
+    vendor/archos/persimmon/proprietary/etc/permissions/com.android.location.provider.xml:system/etc/com.android.location.provider.xml \
     vendor/archos/persimmon/proprietary/bin/mtkrild:system/bin/mtkrild \
     vendor/archos/persimmon/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/archos/persimmon/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
@@ -103,6 +109,11 @@ PRODUCT_COPY_FILES += \
     vendor/archos/persimmon/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/archos/persimmon/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/archos/persimmon/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
+    vendor/archos/persimmon/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
+    vendor/archos/persimmon/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
+    vendor/archos/persimmon/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
+    vendor/archos/persimmon/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
+    vendor/archos/persimmon/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/archos/persimmon/proprietary/lib/hw/audio.primary.mt6735.so:system/lib/hw/audio.primary.mt6735.so \
     vendor/archos/persimmon/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/archos/persimmon/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
@@ -111,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/archos/persimmon/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
     vendor/archos/persimmon/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
     vendor/archos/persimmon/proprietary/bin/aee:system/bin/aee \
+    vendor/archos/persimmon/proprietary/bin/netd:system/bin/netd \
     vendor/archos/persimmon/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/archos/persimmon/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/archos/persimmon/proprietary/bin/akmd8975:system/bin/akmd8975 \
@@ -159,6 +171,7 @@ PRODUCT_COPY_FILES += \
     vendor/archos/persimmon/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
     vendor/archos/persimmon/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/archos/persimmon/proprietary/xbin/mnld:system/xbin/mnld \
+    vendor/archos/persimmon/proprietary/xbin/showmap:system/xbin/showmap \
     vendor/archos/persimmon/proprietary/lib/libmnl.so:system/lib/libmnl.so \
     vendor/archos/persimmon/proprietary/lib/hw/memtrack.mt6735.so:system/lib/hw/memtrack.mt6735.so \
     vendor/archos/persimmon/proprietary/lib/hw/sensors.mt6735.so:system/lib/hw/sensors.mt6735.so \
