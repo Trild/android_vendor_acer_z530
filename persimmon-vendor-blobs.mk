@@ -80,10 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/archos/persimmon/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
     vendor/archos/persimmon/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
     vendor/archos/persimmon/proprietary/etc/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml \
-    vendor/archos/persimmon/proprietary/etc/agps_conf.xml:system/etc/agps_conf.xml \
     vendor/archos/persimmon/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/archos/persimmon/proprietary/etc/spn_conf.xml:system/etc/spn_conf.xml \
-    vendor/archos/persimmon/proprietary/etc/agps_conf.xml:system/etc/agps_conf.xml \
+    vendor/archos/persimmon/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
+    vendor/archos/persimmon/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/archos/persimmon/proprietary/etc/permissions/android.hardware.location.gps.xml:system/etc/android.hardware.location.gps.xml \
     vendor/archos/persimmon/proprietary/etc/permissions/com.android.location.provider.xml:system/etc/com.android.location.provider.xml \
     vendor/archos/persimmon/proprietary/bin/mtkrild:system/bin/mtkrild \
